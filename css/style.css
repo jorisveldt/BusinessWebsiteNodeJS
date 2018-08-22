@@ -29,3 +29,33 @@ footer {
     /* adjust 'height' to position overlay content vertically */
     height: 35%;
   }
+
+  .carousel-inner {
+    height: 500px;
+  }
+
+  .img-wrapper-carousel {
+    position: relative;
+   }
+  
+  .img-responsive-carousel {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-overlay-carousel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .img-overlay-carousel:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 20%;
+  }
+
