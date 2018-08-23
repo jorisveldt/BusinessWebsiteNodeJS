@@ -1,0 +1,19 @@
+.row-striped:nth-of-type(odd){
+  background-color: #efefef;
+  border-left: 2px #000000 solid;
+}
+
+.row-striped:nth-of-type(even){
+  background-color: #ffffff;
+  border-left: 1px #efefef solid;
+}
+
+.row-striped {
+    padding: 12px 0;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background: #343a40;
+    width: 100%;
