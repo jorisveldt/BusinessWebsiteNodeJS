@@ -1,0 +1,108 @@
+footer {
+    /*position: sticky;*/
+    bottom: 0;
+    background: #343a40;
+    width: 100%;
+}
+
+.img-wrapper {
+    position: relative;
+   }
+  
+  .img-responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .img-overlay:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 35%;
+  }
+
+  .carousel-inner {
+    height: 500px;
+  }
+
+  .img-wrapper-carousel {
+    position: relative;
+   }
+  
+  .img-responsive-carousel {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-overlay-carousel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .img-overlay-carousel:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 20%;
+  }
+
+  #subheader {  
+  position: relative;
+
+
+ /* position: relative;
+  left: 30px;
+  text-shadow: grey;
+  background-color: grey;
+  color: blue;*/
+}
+
+  #aboutheader {
+  text-align: center;
+
+  }
+  
+  .text {
+    position:relative;
+    left:25px;
+    top:13px;
+    width:120px;
+    font-size:11px;
+    color:#fff;
+}
+._text {
+    position:relative;
+    left:25px;
+    top:7px;
+    width:120px;
+    font-size:11px;
+    color:#fff;
+}
+.container {
+    position:relative;
+    background: white;
+    width:650px;
+    height:180px;
+}
+
+  
+
+/*
+div class container in de div class container een header 1 met ''about story'' 
+ook paragraph met het verhaal en kijken hoe je text kunt centreren (Justify) -> zoek in documentatie bootstrap
+sluit div af
+
+}*/
