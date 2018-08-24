@@ -19,7 +19,7 @@ footer {
     width: 100%;
   
   #bigger:hover {
-	transform: scale(1.1);
+    transform: scale(1.1);
     box-shadow: 0 12px 12px rgba(0,0,0,.5);
     transition: .6s ease-out;
     margin-left: auto;
